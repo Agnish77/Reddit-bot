@@ -1,13 +1,12 @@
 # Reddit-bot
 
-A Python-based bot that automatically posts content to Reddit using the PRAW (Python Reddit API Wrapper) library.
+This project is a Reddit bot that automatically posts AI-generated content to a specified subreddit using PRAW (Python Reddit API Wrapper) and Groq AI.
 
 ## Features
 
-- Automatically posts content to a specified subreddit.
-- Scheduled posting using the `schedule` library.
-- Customizable content generation.
-- Error handling and logging for better debugging.
+- Fetches AI-generated content from Groq AI.
+- Posts the content to a specified subreddit.
+- Schedules posts to be made daily at a specific time.
 
 ## Prerequisites
 
@@ -45,6 +44,7 @@ Install the required dependencies:
 pip install -r requirements.txt
 
 ## Usage
+
 Create a .env file in the project root directory with your Reddit API credentials:
 
 CLIENT_ID=your_client_id
@@ -61,7 +61,11 @@ python app.py
 
 ## Configuration
 
-The bot's behavior can be customized by editing the app.py file. You can modify the content generation logic, subreddit target, posting frequency, etc.
+Open app.py and update the following placeholders:
+
+YOUR_SUBREDDIT: Replace this with the name of your subreddit where the bot will post.
+Replace client_id, client_secret, username, password, and user_agent with your Reddit API credentials.
+Replace GROQ_API_KEY with your Groq API key.
 
 ## Error Handling
 
