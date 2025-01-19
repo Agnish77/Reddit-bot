@@ -20,7 +20,7 @@ A Python-based bot that automatically posts content to Reddit using the PRAW (Py
 
 Clone this repository:
    
-git clone https://github.com/yourusername/reddit-bot.git
+git clone https://github.com/Agnish77/Reddit-bot
 
 Navigate to the project directory:
 
