@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # Reddit API credentials
 reddit = praw.Reddit(
     client_id='r_g_sZTenqJ3kz6GapBBB',
-    client_secret='	kOS5pqfdYCuDii4oV-zsFQ',
+    client_secret='kOS5pqfdYCuDii4oV-zsFQ',
     username='u/Ok-Refuse5',
     password='agnisGHC',
     user_agent='Redditbot2 by /u/Ok-Refuse5'
