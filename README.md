@@ -18,7 +18,7 @@ A Python-based bot that automatically posts content to Reddit using the PRAW (Py
 
 ## Installation
 
-1. Clone this repository:
+Clone this repository:
    
 git clone https://github.com/yourusername/reddit-bot.git
 
@@ -44,7 +44,7 @@ Install the required dependencies:
 
 pip install -r requirements.txt
 
-### Usage
+## Usage
 Create a .env file in the project root directory with your Reddit API credentials:
 
 CLIENT_ID=your_client_id
