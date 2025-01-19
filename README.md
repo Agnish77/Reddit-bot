@@ -1,7 +1,5 @@
 # Reddit-bot
 
-# Reddit Bot
-
 A Python-based bot that automatically posts content to Reddit using the PRAW (Python Reddit API Wrapper) library.
 
 ## Features
