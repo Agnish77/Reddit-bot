@@ -9,15 +9,15 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # Reddit API credentials
 reddit = praw.Reddit(
-    client_id='r_g_sZTenqJ3kz6GapPXtg',
-    client_secret='	kZjxLz4WOS5pZqfdYCuDii4oV-zsFQ',
-    username='u/Ok-Refuse5659',
-    password='agnish@77',
-    user_agent='Redditbot2 by /u/Ok-Refuse5659'
+    client_id='r_g_sZTenqJ3kz6GapBBB',
+    client_secret='	kOS5pqfdYCuDii4oV-zsFQ',
+    username='u/Ok-Refuse5',
+    password='agnisGHC',
+    user_agent='Redditbot2 by /u/Ok-Refuse5'
 )
 
 # Groq API key
-GROQ_API_KEY = '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'
+GROQ_API_KEY = 'sk_Av6L515neMURpVbDlehAWGdyb3FYsMOLdkna9TMfQPfJh0VzCV'
 
 def generate_content():
     """Generate content using Groq AI."""
