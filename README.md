@@ -64,7 +64,9 @@ python app.py
 Open app.py and update the following placeholders:
 
 YOUR_SUBREDDIT: Replace this with the name of your subreddit where the bot will post.
+
 Replace client_id, client_secret, username, password, and user_agent with your Reddit API credentials.
+
 Replace GROQ_API_KEY with your Groq API key.
 
 ## Error Handling
